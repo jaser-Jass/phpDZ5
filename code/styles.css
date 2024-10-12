@@ -1,0 +1,61 @@
+@import url('https://https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+aside a {
+    text-decoration: none;
+   }
+
+ul {
+    list-style: none;
+
+}   
+
+   aside {
+    float: left;
+    background: grey;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}  
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+aside ul {
+    list-style: none;
+
+}
+
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+.transparent-image {
+    opacity: 0.5;
+}
+.main {
+    align-items: center;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+
+.features {
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
